@@ -33,7 +33,7 @@ function Signup() {
             return handleError("All field are required");
         } try {
 
-            const url = "http://localhost:8080/auth/signup";
+            const url = "https://deploy-mern-app1-llgl.vercel.app/auth/signup";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
